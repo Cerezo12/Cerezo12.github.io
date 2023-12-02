@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/stilo.css" type="text/css" 
+    rel="stylesheet" />
+    <title>GARENA FREE FIRE</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script> 
+    <script src="main.js"></script> 
+</head>
+<body>
+    <center>
+        <h1>GARENA FREE FIRE</h1>
+        <nav class="navbar">
+            <a href="./index.html">PERSONAJES</a>
+            <a href="./habilidades.html">HABILIDADES</a>
+            <a href="./comentario.html">COMENTARIOS</a>
+    
+        </nav>
+        <div class="container">
+            <h1>GARENA FREE FIRE</h1>
+      
+            <!-- Aqui esta el area donde los usuarios pueden comentar -->
+            <div class="comment-area">  
+      
+              <!-- El titulo para los comentarios --> 
+              <h2>Comentarios:</h2>
+      
+              <!-- Esta es la seccion de comentarios --> 
+              <div class="comments">
+      
+                <!-- Esta seccion contiene los comentarios existentes --> 
+                <!-- Los comentarios existentes se cargaran aqui desde el servidor-->  
+      
+              </div><!-- Fin de la seccion de comentarios -->  
+      
+              <!-- Esta es la seccion para escribir un nuevo comentario --> 
+              <form id="commentForm" class="commentForm">  
+      
+                <!-- Un campo de texto para que el usuario ingrese su nombre -->  
+                Nombre:<br/>  
+                <input type="text" name="name" id="name"><br/>  
+      
+                <!-- Un campo de texto para el comentario del usuario-->  
+                Comentario:<br/>  
+                <textarea name="comment" id="comment"></textarea><br/>  
+      
+                <!-- Un boton para enviar el formulario-->  
+                <input type='button' value='Enviar' id='submit'>  
+      
+              </form><!-- Fin del formulario de escritura de comnetario --> 
+      
+            </div><!-- Fin del area para los comnetarios--> 
+      
+          </div><!-- Fin del contenedor principal--> 
+    
+</body>
+</html>
+
